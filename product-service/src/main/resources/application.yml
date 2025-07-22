@@ -4,16 +4,16 @@ server:
 spring:
   application:
     name: product-service
-    datasource:
-      url: jdbc:postgresql://localhost:5432/product
-      username: postgres
-      password: postgres
-    jpa:
-      database: POSTGRESQL
-      show-sql: true
-      database-platform: org.hibernate.dialect.PostgreSQLDialect
-      hibernate:
-        ddl-auto: create-drop
+  datasource:
+    url: jdbc:postgresql://postgres:5432/product
+    username: postgres
+    password: postgres
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: create-drop
 
 
 

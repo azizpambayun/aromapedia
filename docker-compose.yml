@@ -6,6 +6,7 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
       PGDATA: /data/postgres
+      POSTGRES_DB: product
     volumes:
       - postgres:/data/postgres
     ports:
